@@ -7,7 +7,7 @@ A minimal, standalone desktop editor for the PIC32MX170F256B mruby/c workflow:
 
     write code -> compile (mrbc) -> simulate (simulator.exe) -> flash (mrbwrite)
 
-This is intentionally NOT a full IDE. It is a single-file Tkinter application
+This is NOT a full IDE. It is a single-file Tkinter application
 that wraps three pre-built external executables and gives them a shared
 editor + console + toolbar. No project system, no multi-file workspace.
 
